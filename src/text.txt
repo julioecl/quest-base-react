@@ -1,0 +1,35 @@
+
+// const ref = useRef(null)
+
+// const getText = () => {
+//     const text = (ref.current.value)        
+//     alert(text.toUpperCase())
+//     return
+// } 
+  
+
+// return (
+//     <div className='hero'>
+//         <h1>Quest Base React</h1>
+//         <textarea ref={ref} className='textarea' id='textarea' placeholder='Enter a text...'>
+//         </textarea>
+//         <button onClick={getText} className='btn' label='UPPERCASE'>UPPERCASE</button>
+//         <div className='modification'>
+//             <h2>Modified text:</h2>
+//             <p>{}</p>
+//         </div>
+//     </div>
+// )
+
+    const changeColor = (color) => {    
+        alert(color)
+    }
+
+    return (
+        <div className='hero'>
+            <h1>Quest Base React</h1>
+            <p style={{color: 'red'}} onClick={(color)=>changeColor(color)}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quasi minus, suscipit culpa illo libero reiciendis, aperiam accusantium aliquid dignissimos iure quaerat voluptates architecto quo quos. Excepturi ratione cumque a.</p>
+            <button className='btn'>CHANGE COLOR</button>
+        </div>
+        
+    )
