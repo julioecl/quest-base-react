@@ -3,7 +3,7 @@ import '../button/button.css'
 
 const Button = (props) => {
     const showButtonLabel = () => {
-        alert('Você clicou em '+props.label)
+        alert('This button label is '+props.label)
     }
     return <button className="btn" onClick={showButtonLabel}>{props.label}</button>
 }
