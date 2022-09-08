@@ -1,11 +1,10 @@
 import React from "react"
 import '../button/button.css'
 
-const Button = (props) => {
-    const showButtonLabel = () => {
-        alert('This button label is '+props.label)
-    }
-    return <button className="btn" onClick={showButtonLabel}>{props.label}</button>
+const showButtonLabel = label => alert('This button label is '+ label)
+
+const Button = ({label, children}) => {    
+    return <button className="btn" onClick={() => showButtonLabel(label)}>{children}</button>
 }
 
 export default Button
