@@ -2,7 +2,7 @@
 
 # Desafio 1
 
-- Componente que colore e transforma um texto para maiúsculo (uppercase) utilizando JS.
+Componente que colore e transforma um texto para maiúsculo (uppercase) utilizando JS.
 
 O nome do componente e o nome das props devem ser bem pensados, lembre-se de dar bons nomes que sejam fáceis de outras pessoas entenderem.
 
